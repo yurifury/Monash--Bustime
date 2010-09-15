@@ -1,8 +1,6 @@
 #!/usr/bin/perl
 
 use common::sense;
-use warnings;
-use strict;
 
 my $theTime = `date +'%H%M'`;
 chomp $theTime;
